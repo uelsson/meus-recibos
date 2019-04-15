@@ -1,0 +1,79 @@
+body{
+	background-color: #EEF2F5;
+}
+
+.bg-color-white{
+	background-color: #FFF;
+}
+
+.list-form{
+	padding-top: none;
+	display: inline;
+}
+
+.list-form button{
+	background-color: transparent;;
+	border: 0;
+	cursor: pointer;
+}
+
+/****/
+.system .box-system{
+	color: #666;
+	margin-top: 30px;
+}
+
+.system .box-system form{
+	padding-top: 15px;
+}
+
+.system .box-system .alert{
+	margin-top: 1rem;
+}
+
+.system .box-system .list-head{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.system .box-system .list-body{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.system .box-system .list-body:nth-child(odd){
+	background-color: #F1F1F1;
+}
+
+.padding-botton{
+	padding-bottom: 15px;
+}
+
+/****/
+.menu{
+	background-color: #FFF;
+}
+
+.menu ul{
+	padding-inline-start: 0px;
+    margin-block-end: 0;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	color: #999;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.menu .active{
+	border-bottom: 2px solid #FACA33;
+}
